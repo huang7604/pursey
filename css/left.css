@@ -1,0 +1,98 @@
+div.left div{
+	
+	
+}
+
+div.left_title{
+	width: 96%;
+	height: 20px;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #ff4500;
+    color: #ffffff;
+}
+
+div.advertising{
+	height: 350px;
+	width: 100%;
+}
+
+div.search{
+	height: 200px;
+	width: 100%;
+}
+
+div.tel{
+	height: 250px;
+	width: 100%;
+}
+
+div.search form {
+  
+}
+
+div.search form div{
+	height: 40px;
+	width: 96%;
+	padding-left: 3%;
+	border: 0.1px solid #C0C0C0;
+	margin-top: 8%;
+}
+
+div.search form div span{
+	color: #C0C0C0;
+}
+
+
+select{
+	height: 100%;
+	margin-left: 5%;
+	width: 70%;
+	border: 0px;
+	font-size: 15px;
+	overflow: hidden;
+}
+
+input.submit{
+	width: 103%;
+	height: 100%;
+	margin-left: -3%;
+	border: 0px;
+}
+input.info{
+	width: 68%;
+	border: 0px;
+	height: 82%;
+	font-size: 15px;
+}
+
+div.tel ul{
+   
+   padding-left: 3%;
+   padding-top: 10%;
+   height: 90%;
+   width: 90%;
+   margin: 0;
+   list-style: none;
+}
+
+div.advertising ul{
+  
+   padding-top: 20px;
+   height: 80%;
+   width: 85%;
+   margin: 0;
+   color: blue;
+}
+
+div.advertising ul li a{
+	text-decoration: none;
+}
+
+div.tel ul li{
+	margin-top: 3%;
+}
+
+
+

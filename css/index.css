@@ -1,0 +1,51 @@
+body{
+	margin: 0;
+	background-color: #F5F5F5;
+}
+
+div{
+	
+}
+
+div.top{
+	
+	height: 170px;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	
+}
+
+div.main{
+	overflow: hidden;
+    height: 100%;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	
+}
+
+div.buttom{
+	width: 75%;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("/pursey/image/bottom_bg.gif");
+	background-size: 100% 100%;
+}
+
+div.left{
+	height: 99%;
+	height: 100%;
+	width: 26%;
+	float: left;
+}
+
+div.right{
+	height: 99%;
+	width: 73%;
+	float: left;
+	border-left: 2px solid #F5F5F5;
+}

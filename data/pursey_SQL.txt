@@ -1,0 +1,69 @@
+
+//管理用户创建表格语句
+//id 编号 编号自增
+//name 用户名
+//password 密码
+ 
+create table tb_admin(
+    id int primary key auto_increment,
+    name varchar(50) not null,
+    password varchar(50) not null)
+
+
+//广告信息表创建语句
+//id 编号
+//title 标题
+//content 内容
+//date 发布时间
+// state 推荐状态
+
+create table tb_advertising(
+    id int primary key auto_increment,
+    title varchar(100) not null,
+    content varchar(500) not null,
+    date datetime not null,
+    state int(1) not null)
+
+//免费信息表创建语句
+//id 编号
+//tyle 信息类型
+//title 标题
+//content 内容
+//linkman 联系人
+//tel 电话
+//state 审核状态
+//date 发布时间
+create table tb_info(
+    id int primary key auto_increment,
+    type varchar(30) not null,
+    title varchar(100) not null,
+    content varchar(500) not null,
+    linkman varchar(20) not null,
+    tel varchar(30) not null,
+    state int(1) not null,
+    date datetime not null)
+    
+
+//免费信息表创建语句
+//id 编号
+//tyle 信息类型
+//title 标题
+//content 内容
+//linkman 联系人
+//tel 电话
+//state 审核状态
+//startdate 发布时间
+//enddate 终止时间
+
+create table tb_leaguerinfo(
+    id int primary key auto_increment,
+    type varchar(30) not null,
+    title varchar(100) not null,
+    content varchar(500) not null,
+    linkman varchar(20) not null,
+    tel varchar(30) not null,
+    state int(1) not null,
+    startdate datetime not null,
+    enddate datetime not null)
+
+    

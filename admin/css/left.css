@@ -1,0 +1,96 @@
+div.left{
+	border-right:  1px solid red;
+	height: 100%;
+	width: 99%;
+}
+
+div.left div{
+   width: 100%;
+}
+
+div.title{
+	height: 5%;
+	background-image: url("/pursey/admin/image/gongneng.gif");
+	background-size: 100% 100%;
+}
+div.one{
+    height: 25%;
+}
+
+
+div.two{
+     height: 25%;
+}
+
+div.three{
+	 height: 25%;
+}
+
+div.four{
+	 height: 20%;
+}
+
+div.left div div img{
+	height: 10px;
+	width: 10px;
+}
+
+div.left div div span{
+	color: #ff4500;
+}
+
+div.left div div{
+	margin-left: 15px;
+	margin-top: 2px;
+}
+
+
+div.left form{
+	height: 85%;
+}
+
+div.left form div{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 0;
+    width: 88%;
+    margin-top: 15px;
+    border: 1px solid #ff4500;
+    font-size: 16px;
+}
+
+div.left select{
+	border: 0;
+}
+div.left input.submit{
+	background-color: #ff4500;
+	color: #ffffff;
+	border: 0;
+	font-size: 16px;
+}
+
+div.left input.search{
+	background-color: #ff4500;
+	color: #ffffff;
+	border: 0;
+	font-size: 16px;
+	width: 100%;
+}
+
+div.four div{
+	height: 40%;
+	width: 88%;
+	margin-top: 10px;
+	background-image: url(/pursey/admin/image/publish.svg);
+	background-size: 100% 100%;
+}
+
+div.four div a{
+	text-decoration: none;
+	display: block;
+	color: #ffffff;
+	padding-top: 3px;
+	margin-left: 18px;
+
+	
+}
